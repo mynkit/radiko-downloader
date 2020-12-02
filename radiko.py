@@ -40,7 +40,7 @@ class Radiko:
 
     @spinner_decorator('Obtaining streaming url... ', 'done')
     def set_basic_info(self):
-        driver = webdriver.PhantomJS(executable_path='./phantomjs', service_log_path=os.path.devnull)
+        driver = webdriver.PhantomJS(executable_path='/usr/local/bin/phantomjs', service_log_path=os.path.devnull)
         
         driver.get(self.url)
         html = driver.page_source.encode('utf-8')
