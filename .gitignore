@@ -1,3 +1,7 @@
+*.aac
+.DS_Store
+authkey.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
