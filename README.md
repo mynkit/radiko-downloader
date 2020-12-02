@@ -8,9 +8,7 @@ radikoのタイムフリーをダウンロードするシンプルなスクリ�
 $ pipenv sync
 ```
 
-2. このプログラムは[PhantomJS](http://phantomjs.org/)を使用しています。PhantomJSの最新のバイナリファイルを[ここ](http://phantomjs.org/download.html)からダウンロードし、プロジェクトのディレクトリに配置してください。
-
-3. [ffmpeg](https://www.ffmpeg.org/)と[swftools](http://www.swftools.org/)をインストールしてください。Macの場合はHomebrewによりインストールが可能です:
+2. [PhantomJS](http://phantomjs.org/)と[ffmpeg](https://www.ffmpeg.org/)と[swftools](http://www.swftools.org/)をインストールしてください。Macの場合はHomebrewによりインストールが可能です:
 
 ```bash
 $ brew install phantomjs
